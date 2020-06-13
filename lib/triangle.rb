@@ -29,7 +29,7 @@ class Triangle
       :isosceles
     elsif (@s1 != @s2) && (@s2 != @s3) && (@s3 != @s1)
       :scalene
-    elsif (@s1 * @s2 * @s3) <= 0
+    elsif (@s1 * @s2 * @s3) <= 0 
           raise TriangleError
         
     end
